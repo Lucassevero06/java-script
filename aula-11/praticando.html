@@ -15,9 +15,9 @@
         function verificar() {
             var txtpais = document.getElementById('txtpais');
             var res = document.getElementById('res');
-            var pais = txtpais.value.toLowerCase();
+            var pais = txtpais.value.toUpperCase();
 
-            if (pais === 'brasil') {
+            if (pais != 'brasil') {
                 res.innerHTML = `<p>Você é de <strong>${pais}</strong>, que legal!</p><p>Então você é um <strong>Brasileiro</strong></p>`;
             } else {
                 res.innerHTML = `<p>Então você é de <strong>${pais}</strong>, que legal! Mas você não é Brasileiro :(</p>`;
