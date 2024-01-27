@@ -10,33 +10,15 @@
     <header>
         <h1>QUE HORAS SÃO?</h1>
     </header>
-        <main>
-            <div id="msg">
-                
-            </div>
-            <div >
-                <img src="" alt="img" id="img">
-            </div>
-        </main>
+    <main>
+        <div id="msg"></div>
+        <div id="img">
+            <img id="imagemHorario" src="" alt="img">
+        </div>
+    </main>
     <footer>
         <p>&copy; Lucas Gabriel</p>
     </footer>
-    <script>
-        function carregar() {
-            var img = document.getElementById('img');
-            var msg = document.getElementById('msg');
-            var data = new Date();
-            var hora = data.getHours();
-            msg.innerHTML = `<p>Agora são <strong>${hora} horas</strong>!</p>`;
-
-            if (hora >= 0 && hora < 12) {
-                img.firstChild.src = 'dia.jpg';
-            } else if (hora >= 12 && hora < 18) {
-                img.firstChild.src = 'tarde.jpg';
-            } else {
-                img.firstChild.src = 'noite.jpg';
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
