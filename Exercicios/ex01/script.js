@@ -13,14 +13,6 @@ function carregar() {
         document.body.style.backgroundColor = '#E99516'
     } else {
         img.src = 'imagens/noite.png';
-        document.body.style.backgroundColor = '#3f3f3ff5'
+        document.body.style.backgroundColor = '#002546'
     }
 }
-
-/* 
-
-    cor-dia: #FED355;
-    cor-tarde: #E99516;
-    cor-noite: #002546;
-
-*/
