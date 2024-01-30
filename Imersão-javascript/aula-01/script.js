@@ -60,6 +60,6 @@ function voltarFaixa() {
     trocarNomeFaixa();
 }
 
-botaoPlayPause.addEventListener('click', tocarFaixa);
+botaoPlayPause.addEventListener('click', tocarOuPausar);
 botaoAvancar.addEventListener('click', proximaFaixa);
 botaoVoltar.addEventListener('click', voltarFaixa);
