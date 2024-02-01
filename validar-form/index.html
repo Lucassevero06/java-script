@@ -20,12 +20,12 @@
         </div>
         <div class="form">
             <form action="#" method="post" target="_blank">
-                <input class="input" type="text" name="nome" id="nome" placeholder="Nome completo*">
-                <input class="input"  type="email" name="email" id="email" placeholder="Email*">
-                <input class="input"  type="number" name="tel" id="tel" placeholder="Telefone*">
-                <textarea class="input" name="msg" id="msg" cols="30" rows="10" placeholder="Mensagem*"></textarea>
+                <input class="input" type="text" name="nome" id="nome" placeholder="Nome completo*" value="">
+                <input class="input"  type="email" name="email" id="email" placeholder="Email*" value="">
+                <input class="input"  type="number" name="tel" id="tel" placeholder="Telefone*" value="">
+                <textarea class="input" name="msg" id="msg" cols="30" rows="10" placeholder="Mensagem*" value=""></textarea>
                 <p>*Campos obrigatórios</p>
-                <input id="btn" type="submit" value="ENVIAR">
+                <input id="btn" type="submit" value="ENVIAR" onclick="validar()">
             </form>
         </div>
     </div>
