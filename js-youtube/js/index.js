@@ -46,6 +46,8 @@ var x = paraCelcius(50);
 alert("A temperatura é de "+x+" graus Celcius.");
 */
 
+/*
 function minhaFuncao(){
     var x = 2;
 };
+*/
