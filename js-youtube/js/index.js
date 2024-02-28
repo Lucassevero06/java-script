@@ -52,6 +52,7 @@ function minhaFuncao(){
 };
 */
 
+/*
 const carro = {
     marca: "ford",
     modelo: "ka",
@@ -66,3 +67,51 @@ const carro = {
 };
 
 console.log(carro.completo());
+*/
+
+function eventoClick(){
+    document.body.style.backgroundColor = "red";
+}
+
+function eventoDbClick(){
+    document.body.style.backgroundColor = "blue";
+}
+
+function dentro(){
+    let div = document.getElementById("teste");
+    div.style.backgroundColor = "red";
+}
+
+function fora(){
+    let div = document.getElementById("teste");
+    div.style.backgroundColor = "black";
+}
+
+ function texto(){
+     let p = document.getElementById("texto");
+     p.append('o mouse moveu<br>');
+}
+
+function segurou(){
+    alert("Hello World");
+}
+
+function focou() {
+    let input = document.getElementById("input");
+    input.style.backgroundColor = "red";
+    input.style.color = "white";
+}
+
+function limparTexto(){
+    let input = document.getElementById("input");
+    document.getElementById("input").value = "";
+}
+
+function mudou() {
+    console.log("mudou")
+}
+
+function teclaPressionada(){
+    let input = document.getElementById("input").value;
+    console.log(input);
+}

@@ -6,15 +6,31 @@
     <title>JS</title>
     <style>
         body {
+            height: 100vw;
             text-align: center;
         }
     </style>
 </head>
-<body>
+<body onresize="console.log('redimensionou')">
     <h1>Aprendendo JavaScript</h1>
     <p id="texto"></p>
 
-    <button onclick="alertHello()">Clica ai vai</button>
+    <button ondblclick="eventoDbClick()">Clica ai vai</button> <br> <br>
+
+    <select name="" id="itens" onchange="mudou()">
+        <option value="1">Valor1</option>
+        <option value="2">Valor2</option>
+        <option value="3">Valor3</option>
+        <option value="4">Valor4</option>
+    </select>
+    <br>
+    <br>
+    <br>
+
+    <div id="teste"  onmouseout="fora()" onmouseover="dentro()" style="width: 80%; height: 200px; background-color: rgb(0, 0, 0); margin: auto;"></div> <br>
+
+    <input id="input" onkeyup="teclaPressionada()" onfocus="focou()" style="padding: 80px; font-size: 40px;" type="text" placeholder="digite ae">
+
     <script src="js/index.js"></script>
 </body>
 </html>
