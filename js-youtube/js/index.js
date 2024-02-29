@@ -69,6 +69,7 @@ const carro = {
 console.log(carro.completo());
 */
 
+/*
 function eventoClick(){
     document.body.style.backgroundColor = "red";
 }
@@ -115,3 +116,18 @@ function teclaPressionada(){
     let input = document.getElementById("input").value;
     console.log(input);
 }
+*/
+
+// const lista = [];
+// lista[0] = "arroz";
+// lista[1] = "feijão";
+// lista[2] = "macarrão";
+
+// const pessoa = ["Dimitri", "Teixeira", 30]; //Array
+
+// pessoa.push("Brasileiro"); /* o metodo push(), adiciona mais um item no fim do Array */
+
+// console.log(pessoa.length); /* assim diz quantos itens tem dentro do array. */
+
+// console.log(Array.isArray(pessoa));
+
