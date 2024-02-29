@@ -130,4 +130,3 @@ function teclaPressionada(){
 // console.log(pessoa.length); /* assim diz quantos itens tem dentro do array. */
 
 // console.log(Array.isArray(pessoa));
-
